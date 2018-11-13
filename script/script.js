@@ -254,7 +254,35 @@ function scrollToContact(){
 	  behavior: 'smooth'
 	});
 }
- 
+
+let form = document.querySelector('.form');
+let btnForm = document.querySelector('.btnMsg');
+let close = document.querySelector('.close');
+let guestPassword = document.querySelector('.form-password').value;
+let button = document.querySelector('.form-submit');
+let hiddenLink = document.querySelector('.hiddenLink');
+
+
+
+btnForm.addEventListener('click', function(){
+	form.style.left = "0";
+})
+
+close.addEventListener('click', function(){
+	form.style.left = "-100%";
+})
+
+button.addEventListener('click' , function(){
+	let guestPassword = document.querySelector('.form-password').value;
+	
+	
+	if(guestPassword == 'admin'){
+		hiddenLink.style.visibility = "visible"	;
+	}
+	else{
+		alert('* Access Denied');
+	}
+})
  
  
  

@@ -715,13 +715,70 @@ textarea{
 
 
 
+.form{
+	background :orange;
+	padding : 10px;
+	position : absolute;
+	border-radius : 5px;
+	left : -100%;
+	transition : 1s;
+	width : 100%;
+	border-bottom : 1px solid black;
+	box-shadow : 5px 5px 5px black;
+	box-sizing:border-box;
+	
+	
+	
+}
+.form div{
+	background : rgba(0,0,0,0.5);
+	padding :25px;
+	border-radius :5px;
+	text-shadow : 5px 5px 5px black;
+	box-sizing:border-box;
+}
+.close {
+	color : red !important;
+	font-size : 30px !important;
+	margin : 0;
+	padding : 0;
+	cursor : pointer;
+	margin-left : 200px;
+}
+.hiddenLink{
+	margin-top : 50px;
+	visibility : hidden;
+	color : green;
+	transition : 5s;
+}
 
 
 
 
-
-
-
+#uniqueForForm{
+	
+	background : none;
+	border: 1px solid white;
+	color : white;
+	font-family : century gothic;
+	padding : 7px 10px;
+	border-radius : 10px;
+	text-align : center;
+	cursor : pointer;
+	font-size : 14px;
+}
+#uniqueInputForm{
+	color: #fff;
+    background: none;
+    border: none;
+    border: 1px solid #fff;
+    padding: 5px 5px;
+    font-family: century gothic;
+    color: darkorange;
+    font-size: 15px;
+    text-align: center;
+	border-radius :5px;
+}
 
 
 
