@@ -144,7 +144,7 @@ body{
 		width : 100%;
 		transition : 0.5s;
 		right : 0;
-		left: -100%;
+		left: -105%;
 		border-bottom : 1px solid rgba(100,100,100,0.5);
 		border-right : 1px solid rgba(100,100,100,0.5);
 	}
