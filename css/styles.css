@@ -235,7 +235,7 @@ h1{
 .html{
 	
 	border-radius :10px;
-	background-image : linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../html.png);
+	background-image : linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/html.png);
 	background-position :center;
 	background-size : cover;
 	box-shadow : 10px 10px 10px black;
@@ -244,7 +244,7 @@ h1{
 .css{
 	
 	border-radius :10px;
-	background-image : linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../css.png);
+	background-image : linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/css.png);
 	background-position :center;
 	background-size : cover;
 	box-shadow : 10px 10px 10px black;
@@ -253,7 +253,7 @@ h1{
 .js{
 	
 	border-radius :10px;
-	background-image : linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../jd.png);
+	background-image : linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/jd.png);
 	background-position :center;
 	background-size : cover;
 	box-shadow : 10px 10px 10px black;
