@@ -20,7 +20,7 @@ function menuToggle(){
 	
 	}
 	else if(toggleNavStatus == true){
-		mainHeaderNav.style.left = "-100%";
+		mainHeaderNav.style.left = "-105%";
 		
 		let arrayLength = mainHeaderLinks.length;
 		for(let x = 0 ; x < arrayLength ; x++){
