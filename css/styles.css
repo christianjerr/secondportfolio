@@ -704,6 +704,7 @@ textarea{
 
 @media (max-width : 600px){
 	.finalSection{
+		margin-top : 50px;
 		padding : 25px 10px;
 	}
 	.finalSection span{
