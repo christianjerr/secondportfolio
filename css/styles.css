@@ -684,7 +684,32 @@ textarea{
 		font-size : 0.9rem !important;
 	}
 }
+.finalSection{
+	background : black;
+	height: auto;
+	width : 100%;
+	box-sizing:border-box;
+	color : #ccc;
+	padding : 25px 100px;
+	line-height :35px;
+}
+.phone{
+	width : 20px;
+	height : 20px;
+}
+.contact{
+	padding-left :15px;
+	
+}
 
+@media (max-width : 600px){
+	.finalSection{
+		padding : 25px 10px;
+	}
+	.finalSection span{
+		font-size : 12px !important;
+	}
+}
 
 
 

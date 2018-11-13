@@ -245,7 +245,15 @@ function calc(){
 		answer.innerHTML = `Syntax error or Unknown value`;
 	}
 }
- 
+
+
+//fiftSection
+function scrollToContact(){		
+	window.scrollTo({
+	  top: 5000,
+	  behavior: 'smooth'
+	});
+}
  
  
  
