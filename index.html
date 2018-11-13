@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+	<head>
+		<title>JavasCript</title>
+		<meta name="viewport" content="width = device-width , initial-scale = 1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body >
+	<header class="main-header">
+		<div id="branding">
+			<h1> Christian |  <span class="highlight spanBrand">Design</span></h1>
+		</div>
+		<nav>
+			<ul>
+				<li ><a onclick ="scrollToHome()">Home</a></li>
+				<li><a onclick ="scrollToAbout()">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div id="menu-toggle" onclick = "menuToggle()">
+		</div>
+	</header>
+	<br>
+	<section class= "skew">
+		<div class="container">
+			<img src="../../profile.png"  class="profile"   onclick = "scrollToAbout()">
+			
+			<h1 class="highlight" id="title">Hi i am Christian Jerr</h1>
+			
+			<p id="type-writter">A student, an aspiring front-end developer and a web designer, programming is my passion, Let's work together! , Let's turn your design into Websites!</p>
+			<br>
+			
+			<div class="link-grid">
+				<a type="submit" class="btnMsg"  href="resume.docx">Download my resume</a>		
+				<a type="submit" class="btnMsgContact"  onclick="location.href='contact.html';">Contact me</a>
+				
+			
+			</div>
+		</div>
+		<div class="arrowContainer">
+			<img src="img/down.png" id="downArrow" onmousemove = "arrow()" onmouseleave="arrowOut()" onclick = 'scrollEffect()'  >
+		</div>
+		
+		<div class="arrowContainerSecond">
+			<img src="img/down.png" id="downArrowSecond" onmousemove = "arrow()" onmouseleave="arrowOut()"  onclick = 'scrollEffect()' >
+		</div>
+			</section>
+			
+	<br>
+	<br>
+	<br>
+	<div class="nextSection">
+		<h1 id="skill-title">My Skill's </h1>
+		<div class="grid-container">
+			<div class="html" class="img" onmouseover = "skillHover1()" onmouseout ="skillHoverOut1()">
+		
+			<section class="description1" >
+			<h2 >Html</h2>
+			<p >HyperText Markup Language</p>
+			</section>
+			</div>
+			<div onmouseover = "skillHover1()" onmouseout ="skillHoverOut1()">
+			<p class="details">I know knowledge about html like basic elements , form methods , proper semantics positioning ,and basic tags . </p>
+			<a  class="more" onclick="scrollToAbout()"> View more ..</a>
+		
+			</div>
+		
+		<div class="css" class="img" onmouseover = "skillHover2()" onmouseout ="skillHoverOut2()">
+			<section class="description2">
+			<h2 >CSS3</h2>
+			<p >Cascading Style Sheet</p>
+			</section>
+			
+		</div >
+	<div onmouseover = "skillHover2()" onmouseout ="skillHoverOut2()">
+			<p class="details">I know indepth knowledge about css like responsiveness using media query for responsiveness , flex , grid and basic css animations. I know about css framework like bootstrap but i dont usually rely on it, all of my work including this portfolio is created using only pure css from scratch to make more freedom in styling and positioning. in bootstrap you are using predefined classes and its hard to overwrite the defaults. but it some cases like rapid development it will come in handy . I also use SCSS / SASS for cleaner code and sometimes im using BEM methology.</p>
+			<a class="more" onclick="scrollToAbout()"> View more ..</a>
+		
+	</div>
+		
+		<div class="js" class="img" onmouseover = "skillHover3()" onmouseout ="skillHoverOut3()">
+			<section class="description3">
+			<h2 >JavaScript</h2>
+			<p >JavaScript also known as EcmaScript</p>
+			</section>
+			
+		</div>
+		<div onmouseover = "skillHover3()" onmouseout ="skillHoverOut3()">
+		
+			<p class="details">I know some basics about JavaScript like Dom manipulation , Hoisting , ReactJs, Json , form validation ,and Ajax . I also use JavaScript for navigation bar and events in this portfolio to make it more use friendly and interactive. Try hovering on some elements</p>
+			<a  class="more" onclick="scrollToAbout()"> View more ..</a>
+		</div>
+
+		
+	</div>
+	
+	
+	</div>
+	
+	
+	<div class="thirdSection">
+		
+		<div class="thirdContainerGrid">
+			<div>
+				<img src="img/profile.png" id="profileReal" onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()"> 
+				<h1 id="thirdSectionTitle" onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()">Front-end developer</h1>
+				<p onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()">Im Christian Jerr T. Buarao, I am a four year graduate of Bachelor of Science in Information Technology at Access Computer College Inc., I am passionate about Web development especially on front-end , ui and ux and i also making sure that responsiveness of my work is at it's best. I also have experience in python language more on Object Oriented Programming. Although my focus is more on front-end development i have also some basic skills about backend like HyperText prepocessor "PHP" and Mysql. My hobbies is making dynamic websites from scratch and learning new things. </p>
+				
+				<a type="submit" class="btnMsg"  href="resume.docx" onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()">Download my resume</a>		
+				
+			
+			</div>
+			
+			<div class = "box2">
+				<section>
+				<br>
+				<span class="highlight" onmousemove = "albert()" onmouseleave="albertOut()">Albert Einstein </span><br><span onmousemove = "albert()" onmouseleave="albertOut()" >The best way to predict your future is to create it.</span>
+				<br><br><span class="highlight" onmousemove ="abraham()" onmouseleave="abrahamOut()">Abraham Lincoln </span><br><span onmousemove ="abraham()" onmouseleave="abrahamOut()">Things may come to those who wait, but only the things left by those who hustle</span>
+				<br><br><span class="highlight" onmousemove = "haynes()" onmouseleave="haynesOut()">RutherFord Haynes</span><br><span onmousemove = "haynes()" onmouseleave="haynesOut()">The expert in anything is once a beginner.</span>
+				<br><br>
+				<div id="abraham"></div>
+				<div id="greatMinds" ></div>
+				<div id="haynes" ></div>
+				</section>
+			</div>
+		
+		
+		</div>
+		
+	
+	
+	
+		
+	
+	</div>
+	
+	<div class="fourthSection">
+		<h1 class = "sectionTitle">My apps</h1>
+		
+		<div class="calc-grid">
+		
+			<div>
+				<h1 style="text-align : center" class="highlight">Basic Calculator</h1>
+				<br>
+				<p>Enter operation : </p><input  class="operations inputBoxes">
+				<p>Enter First  : </p><input type="text"  class="firstNumber inputBoxes">
+				<p>Enter Second number : </p><input type="text" class="secondNumber inputBoxes">
+				<br><br><input type="submit" class="btnMsgContact" onclick = "calc()">
+				<br><br><textarea class="answer" ></textarea>
+			</div>
+			
+			<div>
+				<p>This is my basic calculator created using vanilla JavaScript.</p>
+				<h1>operations : </h1>
+				<p class="highlight">* This are the available operations</p>
+				<p>addition or add </p>
+				<p>multiplication or mult</p>
+				<p>division or div</p>
+				<p>subtraction or sub</p>
+				
+				<p class="highlight">* This app uses conditional if else statements , functions , events. and i also put some form validation to validate when the user inputs incorrect or empty value's. </p>
+				
+			</div>
+		
+		</div>
+	</div>
+	
+	
+
+	<script src="script/script.js"></script>
+	</body>
+	
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
