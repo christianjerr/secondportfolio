@@ -130,6 +130,7 @@ body{
 	.main-header{
 		padding :0px 0px 0px 30px;
 		border-bottom : 3px solid orange;
+		z-index: 20;
 	}
 	.main-header nav ul{
 		display : block;
@@ -138,20 +139,20 @@ body{
 	}
 	
 	.main-header nav{
-		top : 63px;
 		position: absolute;
 		background : rgba(0,0,0,0.5);
 		width : 100%;
-		transition : 0.5s;
+		transition : 2s;
 		right : 0;
-		left: -105%;
+		top: -400%;
+		left: 0 ;
 		border-bottom : 1px solid rgba(100,100,100,0.5);
 		border-right : 1px solid rgba(100,100,100,0.5);
+		z-index : -1;
 	}
 	.main-header nav ul li a{
 		line-height : 60px;
-		transition : 0.5s;
-		
+		opacity: 0;
 		display: block;
 		
 		

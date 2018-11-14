@@ -9,26 +9,31 @@ function menuToggle(){
 	
 	if(toggleNavStatus == false){
 		
-		mainHeaderNav.style.left = "0";
-		
+		mainHeaderNav.setAttribute('style' , 'top : 64px ; border-bottom : 1px solid rgba(100,100,100,0.5)')
 		let arrayLength = mainHeaderLinks.length;
 		for(let x = 0 ; x < arrayLength ; x++){
-			mainHeaderLinks[x].style.opacity = "1";
+			mainHeaderLinks[x].setAttribute('style' , 'transition : 10s ; opacity : 1 ; ');
 		}
 		
 		toggleNavStatus = true;
 	
 	}
 	else if(toggleNavStatus == true){
-		mainHeaderNav.style.left = "-105%";
+		mainHeaderNav.style.top = "-400%";
+		mainHeaderNav.setAttribute('style' , "border-bottom : 0 ");
 		
 		let arrayLength = mainHeaderLinks.length;
 		for(let x = 0 ; x < arrayLength ; x++){
 			mainHeaderLinks[x].style.opacity = "0";
+			
+			mainHeaderLinks[x].setAttribute('style' , 'transition : 0.7s ');
 		}
 		
 		toggleNavStatus = false; 
-	
+		
+		
+		
+		
 	}
 }
 
