@@ -17,6 +17,7 @@ body{
 	font-family : century gothic;
 	margin : 0;
 	padding : 0;
+	/* change */
 	background : #706855;/*linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../wallpaper1.jpg) no-repeat*/
 	background-position : center;
 	user-scalable : no;
@@ -167,7 +168,6 @@ body{
 	width :100%;
 	background-size :cover;
 	background-position : center;
-/*	transform : skew(0deg , -10deg) translateY(-120px) ;*/
 	z-index : 500;
 	
 }
@@ -175,7 +175,6 @@ body{
 	padding-top : 100px;
 	color : orange;
 	text-align : center;
-/*	transform : skew(0deg , 10deg) translateY(-120px) ;*/
 	margin: 0px 100px;
 	
 }
@@ -723,7 +722,7 @@ textarea{
 	padding : 10px;
 	position : absolute;
 	border-radius : 5px;
-	left : -100%;
+	left : -102%;
 	transition : 1s;
 	width : 100%;
 	border-bottom : 1px solid black;
