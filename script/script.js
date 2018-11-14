@@ -274,7 +274,7 @@ btnForm.addEventListener('click', function(){
 })
 
 close.addEventListener('click', function(){
-	form.style.left = "-100%";
+	form.style.left = "-102%";
 })
 
 button.addEventListener('click' , function(){
