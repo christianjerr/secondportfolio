@@ -1,6 +1,6 @@
 /* global */
 .highlight{
-	color : #706855;;
+	color : #706855;
 }
 .spanBrand{
 	font-size : 1rem !important; 
@@ -630,13 +630,13 @@ h1{
 	box-shadow : 10px 10px 10px black;
 }
 .inputBoxes{
-	color : #fff;
 	background : none;
 	border:none;
 	border-bottom : 1px solid #fff;
 	padding: 5px 5px;
 	font-family : century gothic;
-	color : darkorange;
+	/* theme */ 
+	color : #706855;
 	font-size : 15px;
 	text-align: center;
 }
@@ -649,7 +649,8 @@ button:focus {
 textarea{
 	border-radius : 10px;
 	padding : 15px;
-	color : darkorange;
+	/* theme */
+	color : #706855;
 	background: none;
 	border:none;
 	border-bottom : 2px solid white;
@@ -776,7 +777,8 @@ textarea{
     border: 1px solid #fff;
     padding: 5px 5px;
     font-family: century gothic;
-    color: #706855;
+    /* theme */
+	color: #706855;
     font-size: 15px;
     text-align: center;
 	border-radius :5px;
