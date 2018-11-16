@@ -808,13 +808,13 @@ textarea{
 	padding : 0;
 }
 #wrapper ul li{
-	background : white;
+	background : #706855;
 	padding : 10px;
 	color : black;
 	border-radius : 5px;
 }
 .delete{
-	background : #706855;
+	background : black;
 	color : #ccc;
 	padding :5px;
 	border-radius :5px;
@@ -837,7 +837,9 @@ textarea{
 
 
 
-
+.name{
+	color :#ccc;
+}
 
 
 
