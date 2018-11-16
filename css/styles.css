@@ -601,7 +601,7 @@ h1{
 
 
 .fourthSection{
-	height : 100vh;
+	height : 100%;
 	padding : 100px;
 	color : #fff;
 }
@@ -612,7 +612,7 @@ h1{
 	grid-gap : 15px; 
 
 	}
-.calc-grid div:nth-child(2){
+.calc-grid div{
 	background : rgba(0,0,0,0.5);
 	text-shadow: 1px 1px 5px black;
 	padding : 25px;
@@ -620,14 +620,14 @@ h1{
 	
 	box-shadow : 10px 10px 10px black;
 }
-
+/*
 .calc-grid div:nth-child(1){
 	background : rgba(0,0,0,0.6);
 	text-shadow: 1px 1px 5px black;
 	padding : 25px;
 	border-radius : 10px;
 	box-shadow : 10px 10px 10px black;
-}
+}*/
 .inputBoxes{
 	background : none;
 	border:none;
@@ -786,7 +786,53 @@ textarea{
 
 
 
+/* mini facebook */
 
+.main-facebook-title{
+	background : #706855;
+	color : #ccc;	
+	text-align : center;
+	padding : 10px;
+	box-sizing : border-box;
+	border-radius  : 10px;
+	font-weight : bold !important;
+}
+#wrapper li{
+	list-style : none;
+	line-height : 30px;
+	padding: 0; 
+	margin : 10px 0px;
+}
+#wrapper ul{
+	margin : 0;
+	padding : 0;
+}
+#wrapper ul li{
+	background : white;
+	padding : 10px;
+	color : black;
+	border-radius : 5px;
+}
+.delete{
+	background : #706855;
+	color : #ccc;
+	padding :5px;
+	border-radius :5px;
+	cursor : pointer;
+	margin-left: 10px;
+}
+#make-a-post{
+	padding : 10px;
+	border-radius : 5px;
+	color : #3b5998;
+	margin-bottom : 5px;
+}
+#fb-search{
+	
+	padding : 10px;
+	border-radius : 5px;
+	color : #3b5998;
+}
 
 
 
