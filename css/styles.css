@@ -26,6 +26,7 @@ body{
 	
 }
 .btnMsgContact{
+	font-family: 'Quicksand', sans-serif;
 	background : none;
 	border: 1px solid white;
 	color : white;
@@ -43,9 +44,9 @@ body{
 }
 .btnMsg{
 	background : none;
-	border: 1px solid #706855;;
+	border: 1px solid #706855;
+	font-family: 'Quicksand', sans-serif;
 	color : #706855;
-	font-family : century gothic;
 	padding : 10px 20px;
 	border-radius : 10px;
 	text-align : center;
