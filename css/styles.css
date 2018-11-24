@@ -617,7 +617,6 @@ h1{
 	text-shadow: 1px 1px 5px black;
 	padding : 25px;
 	border-radius : 10px;
-	
 	box-shadow : 10px 10px 10px black;
 }
 /*
@@ -664,11 +663,13 @@ textarea{
 	.calc-grid{
 		display:grid;
 		grid-template-columns : 1fr;
+		
 	}
 	.fourthSection{
 	height : 100%;
-	padding : 0px 10px;
+	padding : 0px 10px !important;
 	color : #fff;
+	
 }
 	.sectionTitle{
 		text-align: center;

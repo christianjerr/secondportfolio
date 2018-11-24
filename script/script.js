@@ -344,7 +344,7 @@ function calc(){
 //fiftSection
 function scrollToContact(){		
 	window.scrollTo({
-	  top: 5000,
+	  top: 6500,
 	  behavior: 'smooth'
 	});
 }
