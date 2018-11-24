@@ -667,8 +667,10 @@ textarea{
 	}
 	.fourthSection{
 	height : 100%;
-	padding : 0px 10px !important;
+	padding : 0px 0px !important;
 	color : #fff;
+	margin : 0 !important; 
+	
 	
 }
 	.sectionTitle{
