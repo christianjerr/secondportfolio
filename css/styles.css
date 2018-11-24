@@ -144,7 +144,7 @@ body{
 	
 	.main-header nav{
 		position: absolute;
-		background : rgba(0,0,0,0.5);
+		background : black;
 		width : 100%;
 		transition : 2s;
 		right : 0;
