@@ -2,6 +2,7 @@
 
 .highlight{
 	color : #706855;
+	font-weight : bold;
 }
 .spanBrand{
 	font-size : 1rem !important; 
@@ -229,8 +230,7 @@ body{
 }
 
 
-/* skill Set */
-
+/* skills  */ /* skills */ /* skills */
 
 h1{
 	font-weight : 100;
@@ -261,8 +261,26 @@ h1{
 	background-size : cover;
 	box-shadow : 10px 10px 10px black;
 }
+.ajax{
+	
+	border-radius :10px;
+	background-image : linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/ajax.jpg);
+	background-position :center;
+	background-size : cover;
+	box-shadow : 10px 10px 10px black;
+}
+.git{
+	border-radius :10px;
+	background-image : linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/git.png);
+	background-position :bottom right;
+	background-size : cover;
+	box-shadow : 10px 10px 10px black;
+}
 
-.html , .js , .css{
+
+/* skills  */ /* skills */ /* skills */
+
+.html , .js , .css , .ajax , .git{
 	height: 200px;
 	width :200px;
 }
@@ -279,6 +297,10 @@ h1{
 	text-align : center;
 	
 }
+
+
+/* skills  */ /* skills */ /* skills */
+
 .description1 {
 	
 	border-radius :10px;
@@ -306,6 +328,26 @@ h1{
 	background: rgba(0,0,0,0.6);
 	color : #ccc;
 	padding: 25px 0px 50px 0px;
+	opacity : 0;
+	transition : 1s;
+}
+
+.description4 {
+	
+	border-radius :10px;
+	background: rgba(0,0,0,0.6);
+	color : #ccc;
+	padding: 25px 0px 29px 0px;
+	opacity : 0;
+	transition : 1s;
+}
+
+.description5 {
+	
+	border-radius :10px;
+	background: rgba(0,0,0,0.6);
+	color : #ccc;
+	padding: 25px 0px 70px 0px;
 	opacity : 0;
 	transition : 1s;
 }
@@ -396,6 +438,11 @@ h1{
 	border-radius : 100px;
 	transition : 1s;
 }
+
+
+
+/* skills  */ /* skills */ /* skills */
+
 @media (max-width : 900px){
 	.profile{
 		width : 100px;
@@ -412,6 +459,13 @@ h1{
 		
 		padding: 1px 0px 0.5px 0px;
 	}
+	.description4{
+		
+		padding: 1px 0px 60px 0px;
+	}
+	.description5{
+		padding: 1px 0px 100px 0px;
+	}
 }
 
 
@@ -420,9 +474,9 @@ h1{
 
 
 
-
+/* skills  */ /* skills */ /* skills */ 
 @media (max-width : 700px){
-	.js, .html , .css{
+	.js, .html , .css , .ajax , .git{
 		margin: 0 auto;
 	}
 	.html , .js , .css{

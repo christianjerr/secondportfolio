@@ -179,6 +179,24 @@ function skillHoverOut3(){
 	description.style.opacity = "0";
 }
 
+function skillHover4(){
+	let description = document.querySelector('.description4');
+	description.style.opacity = "1";
+}
+function skillHoverOut4(){
+	let description = document.querySelector('.description4');
+	description.style.opacity = "0";
+}
+
+function skillHover5(){
+	let description = document.querySelector('.description5');
+	description.style.opacity = "1";
+}
+function skillHoverOut5(){
+	let description = document.querySelector('.description5');
+	description.style.opacity = "0";
+}
+
 
 function arrow(){
 	let downArrow = document.getElementById('downArrow');
@@ -211,12 +229,6 @@ function scrollEffect(){
 }
 
 
-function scrollToAbout(){		
-	window.scrollTo({
-	  top: 2200,
-	  behavior: 'smooth'
-	});
-}
 function scrollToHome(){		
 	window.scrollTo({
 	  top: 0,
@@ -224,10 +236,37 @@ function scrollToHome(){
 	});
 }
 
+
+function scrollToContact(){		
+	window.scrollTo({
+	  top: 8000,
+	  behavior: 'smooth'
+	});
+}
+
+
+ function scrollBugAbout(){
+	 if(window.innerWidth > 1000){
+		document.getElementById('bug').addEventListener('click', function(){
+			window.scrollTo({
+				top: 2300,
+				behavior : 'smooth'
+			});
+		});
+	 }else if(window.innerWidth < 1000){
+		 document.getElementById('bug').addEventListener('click', function(){
+			window.scrollTo({
+				top: 3100,
+				behavior : 'smooth'
+			});
+		});
+	 }
+ }
+
 window.onload = function(){
 	autoTitle();
+	scrollBugAbout();
 }
- 
 
 let thirdSectionTitleLetter = 0;
 let thirdSectionTitleSpeed = 200;
@@ -342,13 +381,6 @@ function calc(){
 
 
 //fiftSection
-function scrollToContact(){		
-	window.scrollTo({
-	  top: 6500,
-	  behavior: 'smooth'
-	});
-}
-
 let form = document.querySelector('.form');
 let btnForm = document.querySelector('.btnMsg');
 let close = document.querySelector('.close');

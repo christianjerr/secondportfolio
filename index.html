@@ -9,12 +9,12 @@
 	<body >
 	<header class="main-header">
 		<div id="branding">
-			<h1> Christian |  <span class="highlight spanBrand">Design</span></h1>
+			<h1> Christian <span class="highlight spanBrand">Design</span></h1>
 		</div>
 		<nav>
 			<ul>
 				<li ><a onclick ="scrollToHome()">Home</a></li>
-				<li><a onclick ="scrollToAbout()">About</a></li>
+				<li><a  id="bug">About</a></li>
 				<li><a onclick = "scrollToContact()">Contact</a></li>
 			</ul>
 		</nav>
@@ -32,10 +32,10 @@
 			<img src="img/profile.png"  class="profile"   onclick = "scrollToAbout()">
 			
 			
-			<h1 class="highlight" id="title">Hi i'm Christian Jerr</h1>
+			<h1 class="highlight" id="title">Welcome I'm Christian Jerr</h1>
 			
 			
-			<p id="type-writter">A student, an aspiring front-end developer and a web designer, I made this site using pure css , media query and Javascript without any framework, programming is my passion, Let's work together! , Let's turn your design into Websites!</p>
+			<p id="type-writter">A student, an aspiring front-end developer and a web designer, I made this site using pure css , media query and Javascript without any framework, programming is my passion, Let's work together! , Let's turn your design into Websites! Scroll down to see more</p>
 			<br>
 				
 			
@@ -127,7 +127,33 @@
 		</div>
 		<div onmouseover = "skillHover3()" onmouseout ="skillHoverOut3()">
 		
-			<p class="details">I know some basics about JavaScript like Dom manipulation , Hoisting , ReactJs, Json , form validation ,and Ajax . I also use JavaScript for navigation bar and events in this portfolio to make it more use friendly and interactive. Try hovering on some elements</p>
+			<p class="details">I know some knowledge about JavaScript like Dom manipulation , Hoisting ,Event bubbling,  ReactJs, Json , form validation ,and Ajax . I also use JavaScript for navigation bar and events in this portfolio to make it more use friendly and interactive. Try hovering on some elements</p>
+			<a  class="more" onclick="scrollToAbout()"> View more ..</a>
+		</div>
+		
+		<div class="ajax" class="img" onmouseover = "skillHover4()" onmouseout ="skillHoverOut4()">
+			<section class="description4">
+			<h2>Ajax</h2>
+			<p>Ajax also known as Asynchronous JavaScript And XML</p>
+			</section>
+			
+		</div>
+		<div onmouseover = "skillHover4()" onmouseout ="skillHoverOut4()">
+		
+			<p class="details">I know some basics about ajax like fetching api, loading json and parsing objects from files.</p>
+			<a  class="more" onclick="scrollToAbout()"> View more ..</a>
+		</div>
+		
+		<div class="git" class="img" onmouseover = "skillHover5()" onmouseout ="skillHoverOut5()">
+			<section class="description5">
+			<h2>Git</h2>
+			<p>Git version control</p>
+			</section>
+			
+		</div>
+		<div onmouseover = "skillHover5()" onmouseout ="skillHoverOut5()">
+		
+			<p class="details">I find git usefull for tracking changes on my projects, It`s very usefull for me when i am doing bigger projects to identify and recall previous state of my work, i also use github repository to save my projects and log all the changes i`ve made.</p>
 			<a  class="more" onclick="scrollToAbout()"> View more ..</a>
 		</div>
 
@@ -144,7 +170,7 @@
 			<div>
 				<img src="img/profile.png" id="profileReal" onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()"> 
 				<h1 id="thirdSectionTitle" onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()">Front-end developer</h1>
-				<p onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()">Im Christian Jerr T. Buarao, I am a four year graduate of Bachelor of Science in Information Technology at Access Computer College Inc., I am passionate about Web development especially on front-end , ui and ux and i also making sure that responsiveness of my work is at it's best. I also have experience in python language more on Object Oriented Programming. Although my focus is more on front-end development i have also some basic skills about backend like HyperText prepocessor "PHP" and Mysql. My hobbies is making dynamic websites from scratch and learning new things. </p>
+				<p onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()">Im Christian Jerr T. Buarao, I am a fresh graduate of Bachelor of Science in Information Technology at Access Computer College Inc., I am passionate about Web development especially on front-end , ui and ux and i also making sure that responsiveness of my work is at it's best. I also have experience in python language more on Object Oriented Programming. Although my focus is more on front-end development i have also some basic skills about backend like HyperText prepocessor "PHP" and Mysql. My hobbies is making dynamic websites from scratch and learning new things. I also believed that knowledge is not acquired inside the four corner's of the school but also be gain by eagerness to learn by yourself through searching, testing , and applying your skills and capability of the certain things you want to excel at. Which i have done in my past 4 years of being a student and freelance Front-end developer.</p>
 				
 				
 				
@@ -270,10 +296,22 @@
 	</div>
 	
 	<div class = "finalSection">
-	<img src = "img/phone.png" class="phone"><span class="contact">09155274882</span><br>
-	<img src = "img/yahoo.png" class="phone"><span class="contact">christianjerr@yahoo.com</span><br>
-	<img src = "img/gmail.png" class="phone"><span class="contact">christianjerrbuarao@gmail.com</span><br>
-	<img src = "img/facebook.png" class="phone"><span class="contact">ian_buarao@yahoo.com</span>
+	<h1>My Testimonial</h1>
+	<p class="highlight">"The best way to predict your future is to create it"<br>This phrase by Abraham Lincoln has a great inpact in my life,<br> In life you must not find yourself you must create yourself,</p>
+	<br>
+	<br>
+	<h1>Contact and location</h1>
+	<p class="highlight">#10 Kapitan Sindo St. <br>Baranggay Jesus Delapena Marikina City<br>Metro Manila Philippines</p>
+	<img src = "img/phone.png" class="phone"><span class="contact highlight">(+63) 915-527-4882</span><br>
+	
+	<br>
+	
+	<br>
+	<h1>Accounts</h1>
+	<img src = "img/github.png" class="phone"><span class="contact highlight">https://github.com/christianjerr</span>
+	<br><img src = "img/yahoo.png" class="phone"><span class="contact highlight">christianjerr@yahoo.com</span><br>
+	<img src = "img/gmail.png" class="phone"><span class="contact highlight">christianjerrbuarao@gmail.com</span><br>
+	<img src = "img/facebook.png" class="phone"><span class="contact highlight">https://www.facebook.com/crstnjrr</span>
 	
 	
 	</div>
