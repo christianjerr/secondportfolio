@@ -42,7 +42,7 @@ function menuToggle(){
 
 
 
-
+/*
 
 
 // facebook mini 
@@ -124,7 +124,7 @@ searchBar.addEventListener('keyup' , function(e){
 	})
 })
 
-
+*/
 
 
 let letter = 0;
