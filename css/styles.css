@@ -195,7 +195,6 @@ body{
 /* skew title */
 #title{
 	opacity : 0;
-	transition : 10s;
 }
 
 @media (max-width : 700px){

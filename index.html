@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width = device-width , initial-scale = 1.0, user-scalable=no">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="https://unpkg.com/scrollreveal"></script>
 	</head>
 	<body >
 	<header class="main-header">
@@ -90,7 +91,7 @@
 	<br>
 	<br>
 	<div class="nextSection">
-		<h1 id="skill-title">My Skill's </h1>
+		<h1 id="skill-title" >My Skill's </h1>
 		<div class="grid-container">
 			<div class="html" class="img" onmouseover = "skillHover1()" onmouseout ="skillHoverOut1()">
 		
@@ -170,7 +171,7 @@
 			<div>
 				<img src="img/profile.png" id="profileReal" onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()"> 
 				<h1 id="thirdSectionTitle" onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()">Front-end developer</h1>
-				<p onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()">Im Christian Jerr T. Buarao, I am a fresh graduate of Bachelor of Science in Information Technology at Access Computer College Inc., I am passionate about Web development especially on front-end , ui and ux and i also making sure that responsiveness of my work is at it's best. I also have experience in python language more on Object Oriented Programming. Although my focus is more on front-end development i have also some basic skills about backend like HyperText prepocessor "PHP" and Mysql. My hobbies is making dynamic websites from scratch and learning new things. I also believed that knowledge is not acquired inside the four corner's of the school but also be gain by eagerness to learn by yourself through searching, testing , and applying your skills and capability of the certain things you want to excel at. Which i have done in my past 4 years of being a student and freelance Front-end developer.</p>
+				<p onmousemove = "zoomProfile2()" onmouseout="zoomProfileOut2()" id="aboutme">Im Christian Jerr T. Buarao, I am a fresh graduate of Bachelor of Science in Information Technology at Access Computer College Inc., I am passionate about Web development especially on front-end , ui and ux and i also making sure that responsiveness of my work is at it's best. I also have experience in python language more on Object Oriented Programming. Although my focus is more on front-end development i have also some basic skills about backend like HyperText prepocessor "PHP" and Mysql. My hobbies is making dynamic websites from scratch and learning new things. I also believed that knowledge is not acquired inside the four corner's of the school but also be gain by eagerness to learn by yourself through searching, testing , and applying your skills and capability of the certain things you want to excel at. Which i have done in my past 4 years of being a student and freelance Front-end developer.</p>
 				
 				
 				
@@ -200,108 +201,16 @@
 	</div>
 	
 	<div class="fourthSection">
-		<h1 class = "sectionTitle">My Works</h1>
+		<h1 class = "sectionTitle" id="my-work-scroll">My Works</h1>
 		<p class="sectionTitle" style="color : maroon">Currently Working on it!</p>
 		
 		
 		
 		
-		
-		<!--
-		<div class="calc-grid">
-		
-			<div>
-				<h1 style="text-align : center" >Basic Calculator</h1>
-				<br>
-				<p>Enter operation : </p><input  class="operations inputBoxes">
-				<p>Enter First  : </p><input type="text"  class="firstNumber inputBoxes">
-				<p>Enter Second number : </p><input type="text" class="secondNumber inputBoxes">
-				<br><br><input type="submit" class="btnMsgContact" onclick = "calc()">
-				<br><br><textarea class="answer" ></textarea>
-			</div>
-			
-			<div>
-				<p>This is my basic calculator created using vanilla JavaScript.</p>
-				<h1>operations : </h1>
-				<p class="highlight">* This are the available operations</p>
-				<p>addition or add </p>
-				<p>multiplication or mult</p>
-				<p>division or div</p>
-				<p>subtraction or sub</p>
-				
-				<p class="highlight">* This app uses conditional if else statements , functions , events. and i also put some form validation to validate when the user inputs incorrect or empty value's. </p>
-				
-			</div>
-			
-			<div >
-			
-				<div id="wrapper">
-					<header>
-					<div id="page-banner">
-						<h1 class="title main-facebook-title">Welcome to facebook</h1>
-						<form id="search-books">
-							<input type = "text" placeholder="Search" id="fb-search">
-						</form>
-						</div>
-						</header>
-						<br>
-					<div id = "booklist">
-						<h2 class="title">Whats on your mind?</h2>
-						
-					<form id="add-book">
-						<input type="text" placeholder="Make a post" id="make-a-post">
-						<br><button id="share-btn" onclick = "verify()">Share</button>
-					</form>
-						<ul> 
-							<li>
-								<span class="name">Im learning JavaScript - christian jerr</span>
-								<span class="delete">delete</span>
-							</li>
-							<li>
-								<span class="name">I love CSS - christian Jerr </span>
-								<span class="delete">delete</span>
-							</li>
-							<li>
-								<span class="name">html is preety bassiccc! - christian jerr</span>
-								<span class="delete">delete</span>
-							</li>
-							<li>
-								<span class="name">I want to be a full stack developer someday - christian jerr</span>
-								<span class="delete">delete</span>
-							</li>
-						</ul>
-			<input type="checkbox" id="hide">
-					<label for="hide">Hide all status</label><br>
-			
-		</div>
-					
-		
 	</div>
 	
-			
-			
-			
-			
-			
-			</div>
-			
-			<div>
-			
-				<h1>Mini facebook details</h1>
-				<p>This app is created by me using pure JavaScript, It uses dom manipulation , query selector , call back functions and some basic javaScript effects. </p>
-				<p class="highlight">* You can post a topic on share button</p>
-				<p class="highlight">* You can hide all the status , i use simple display on javaScript</p>
-				<p class="highlight">* You can also delete some topics</p>
-				<p class="highlight">* You can also search some topics</p>
-				<p>one of my simple projects </p>
-				<p>I made this site for my classmate</p>
-				<a class="highlight">crstnjrr.pcriot.com</a>
-			</div>
-		
-		</div>-->
-	</div>
-	
-	<div class = "finalSection">
+	<div class = "finalSection" >
+	<div id="final-section-scroll">
 	<h1>Contact and location</h1>
 	<p class="highlight">#10 Kapitan Sindo St. <br>Baranggay Jesus Delapena Marikina City<br>Metro Manila Philippines</p>
 	<img src = "img/phone.png" class="phone"><span class="contact highlight">(+63) 915-527-4882</span><br>
@@ -315,11 +224,37 @@
 	<img src = "img/gmail.png" class="phone"><span class="contact highlight">christianjerrbuarao@gmail.com</span><br>
 	<img src = "img/facebook.png" class="phone"><span class="contact highlight">https://www.facebook.com/crstnjrr</span>
 	
-	
+	</div>
 	</div>
 	
 
 	<script src="script/script.js"></script>
+	<script>
+		ScrollReveal({ reset: true });
+		window.sr = ScrollReveal();
+		
+		sr.reveal('#my-work-scroll', {
+         duration: 2000,
+         origin:'bottom',
+		 distance : '10px'
+        });
+		sr.reveal('#skill-title', {
+         duration: 2000,
+         origin:'bottom',
+		 distance : '10px'
+        });
+		sr.reveal('#final-section-scroll', {
+         duration: 2000,
+         origin:'left',
+		 distance : '300px'
+        });
+		sr.reveal('#aboutme', {
+         duration: 2000,
+         origin:'bottom',
+		 distance : '10px'
+        });
+	
+	</script>
 	</body>
 	
 </html>

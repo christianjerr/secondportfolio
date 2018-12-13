@@ -147,6 +147,7 @@ setTimeout(type, speed);
 function autoTitle(){
 	let title = document.querySelector('#title');
 	title.style.opacity = "1";
+	title.style.transition = "10s";
 }
 
 
@@ -409,7 +410,6 @@ button.addEventListener('click' , function(){
 		alert('* Access Denied');
 	}
 })
- 
  
  
  
