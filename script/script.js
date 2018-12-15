@@ -412,7 +412,8 @@ button.addEventListener('click' , function(){
 })
  
  
- 
+let sideForm = document.querySelector('.form');
+sideForm.style.zIndex = "1"; 
  
  
  
