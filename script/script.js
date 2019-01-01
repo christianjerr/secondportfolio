@@ -12,7 +12,7 @@ function menuToggle(){
 		mainHeaderNav.setAttribute('style' , 'top : 64px ; border-bottom : 1px solid rgba(100,100,100,0.5)')
 		let arrayLength = mainHeaderLinks.length;
 		for(let x = 0 ; x < arrayLength ; x++){
-			mainHeaderLinks[x].setAttribute('style' , 'transition : 10s ; opacity : 1 ; ');
+			mainHeaderLinks[x].setAttribute('style' , 'transition : 5s ; opacity : 1 ; ');
 		}
 		
 		toggleNavStatus = true;
@@ -257,7 +257,7 @@ function scrollToContact(){
 	 }else if(window.innerWidth < 1000){
 		 document.getElementById('bug').addEventListener('click', function(){
 			window.scrollTo({
-				top: 3100,
+				top: 2990,
 				behavior : 'smooth'
 			});
 		});
