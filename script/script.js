@@ -417,7 +417,54 @@ sideForm.style.zIndex = "1";
  
  
  
- 
+ /* vue */
+
+let works = new Vue ({
+    
+   el : '#works',
+   data : {
+       
+   },
+   methods : {
+       access : function(){
+          window.open("https://christianjerr.github.io/access", '_blank');
+       }
+   },
+   computed :{
+       
+   }
+    
+    
+    
+    
+    
+});
+
+let contact = new Vue ({
+    
+    el : '#contact' ,
+    data : {
+        
+        end : false ,
+        title : 'Contact and location'
+        
+    },
+    methods :{
+        calling : function(){
+            this.end = true
+            this.title = 'Live call is under maintenance'
+        },
+        ending : function(){
+            this.end = false ,
+            this.title = 'Contact and location'
+        }
+    },
+    computed : {
+        
+    }
+    
+    
+})
  
  
  

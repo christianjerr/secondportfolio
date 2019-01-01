@@ -14,9 +14,14 @@
 	color : #ccc;
 }
 
+*{
+    font-family: 'Quicksand', sans-serif !important;
+    
+
+}
 
 body{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', sans-serif !important;
 	margin : 0;
 	padding : 0;
 	/* change */
@@ -32,7 +37,7 @@ body{
 	border: 1px solid white;
 	color : white;
 	font-family : century gothic;
-	padding : 10px 20px;
+	padding : 5px 20px;
 	border-radius : 10px;
 	text-align : center;
 	cursor : pointer;
@@ -903,11 +908,49 @@ textarea{
 	z-index : -1;
 }
 
+/* works  */
+.workContainer img{
+    margin-top: 30px;
+    width : 300px;
+    box-shadow: 5px 5px 5px black;
+    background: white;
+    
+
+}
+
+/* live call */
+
+#liveCall {
+    margin-top: 10px;
+}
+
+.endCall{
+    color : white;
+    background : maroon;
+    border : none ;
+    padding : 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.endCall:hover{
+    text-shadow: 0px 0px 15px white;
+    transition: 1s;
+}
 
 
-
-
-
+.call {
+    background: #0b6623;
+    color : white;
+    border : none;
+    padding : 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.call:hover{
+    text-shadow: 0px 0px 15px white;
+    transition: 1s;
+}
 
 
 

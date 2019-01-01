@@ -5,7 +5,8 @@
 		<meta name="viewport" content="width = device-width , initial-scale = 1.0, user-scalable=no">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+		<!--<script src="https://unpkg.com/scrollreveal"></script> -->
 	</head>
 	<body >
 	<header class="main-header">
@@ -200,37 +201,42 @@
 	
 	</div>
 	
-	<div class="fourthSection">
-		<h1 class = "sectionTitle" id="my-work-scroll">My Works</h1>
-		<p class="sectionTitle" style="color : maroon">Currently Working on it!</p>
-		
+	<div class="fourthSection" id='works'>
+        
+            <h1 class = "sectionTitle" id="my-work-scroll">My Works</h1>
+            <div class='workContainer'>
+                <img src='img/access.png'><br><br><button  v-on:click = 'access' >Visit site</button>
+            </div>
+        
 		
 		
 		
 	</div>
 	
-	<div class = "finalSection" >
-	<div id="final-section-scroll">
-	<h1>Contact and location</h1>
-	<p class="highlight">#10 Kapitan Sindo St. <br>Baranggay Jesus Delapena Marikina City<br>Metro Manila Philippines</p>
-	<img src = "img/phone.png" class="phone"><span class="contact highlight">(+63) 915-527-4882</span><br>
-	
-	<br>
-	
-	<br>
-	<h1>Accounts</h1>
-	<img src = "img/github.png" class="phone"><span class="contact highlight">https://github.com/christianjerr</span>
-	<br><img src = "img/yahoo.png" class="phone"><span class="contact highlight">christianjerr@yahoo.com</span><br>
-	<img src = "img/gmail.png" class="phone"><span class="contact highlight">christianjerrbuarao@gmail.com</span><br>
-	<img src = "img/facebook.png" class="phone"><span class="contact highlight">https://www.facebook.com/crstnjrr</span>
-	
-	</div>
+	<div class = "finalSection" id='contact'>
+        <div id="final-section-scroll">
+        <h1>{{ title }}</h1>
+        <p class="highlight">#10 Kapitan Sindo St. <br>Baranggay Jesus Delapena Marikina City<br>Metro Manila Philippines</p>
+        <img src = "img/phone.png" class="phone"><span class="contact highlight">(+63) 915-527-4882</span><br>
+        <p v-show = 'end'>Contacting ... <span  ><button class = 'endCall' v-on:click = 'ending'>End call</button></span></p>
+        <button class = 'call' id = 'liveCall' v-on:click = 'calling' >Live call</button>
+
+        <br>
+
+        <br>
+        <h1>Accounts</h1>
+        <img src = "img/github.png" class="phone"><span class="contact highlight">https://github.com/christianjerr</span>
+        <br><img src = "img/yahoo.png" class="phone"><span class="contact highlight">christianjerr@yahoo.com</span><br>
+        <img src = "img/gmail.png" class="phone"><span class="contact highlight">christianjerrbuarao@gmail.com</span><br>
+        <img src = "img/facebook.png" class="phone"><span class="contact highlight">https://www.facebook.com/crstnjrr</span>
+
+        </div>
 	</div>
 	
 
 	<script src="script/script.js"></script>
 	<script>
-		ScrollReveal({ reset: true });
+		/*ScrollReveal({ reset: true });
 		window.sr = ScrollReveal();
 		
 		sr.reveal('#my-work-scroll', {
@@ -252,7 +258,7 @@
          duration: 2000,
          origin:'bottom',
 		 distance : '10px'
-        });
+        });*/
 	
 	</script>
 	</body>
