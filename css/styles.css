@@ -917,6 +917,12 @@ textarea{
     
 
 }
+@media (max-width : 768px){
+    .workContainer{
+        margin : 0px 10px;
+        text-align: center;
+    }
+}
 
 /* live call */
 
