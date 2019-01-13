@@ -428,7 +428,10 @@ let works = new Vue ({
    methods : {
        access : function(){
           window.open("https://christianjerr.github.io/access", '_blank');
-       }
+       },
+	   jp : function(){
+		   window.open("https://jptorrecarion.github.io/services", '_blank');
+	   }
    },
    computed :{
        
