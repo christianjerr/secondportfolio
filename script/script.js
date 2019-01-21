@@ -430,7 +430,7 @@ let works = new Vue ({
           window.open("https://christianjerr.github.io/access", '_blank');
        },
 	   jp : function(){
-		   window.open("https://jptorrecarion.github.io/services", '_blank');
+		   window.open("https://jptorrecarion.github.io/website", '_blank');
 	   }
    },
    computed :{
