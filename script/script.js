@@ -431,6 +431,9 @@ let works = new Vue ({
        },
 	   jp : function(){
 		   window.open("https://jptorrecarion.github.io/website", '_blank');
+	   },
+       intra : function(){
+		   window.open("https://christianjerr.github.io/intra", '_blank');
 	   }
    },
    computed :{
